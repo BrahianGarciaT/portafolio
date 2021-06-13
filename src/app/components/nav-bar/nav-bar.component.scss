@@ -1,0 +1,49 @@
+.nav {
+    width: 100vw;
+    height: 2rem;
+    padding: 0.5rem 0;
+    display: flex;
+    top: 0;
+    position: fixed;
+    background-color: #383838;
+    border-bottom: 2px solid white;
+}
+
+.nav-titulo {
+    height: 2rem;
+    width: 50vw;
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-botones {
+    height: 2rem;
+    width: 50vw;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 2rem;
+    font-family: KaushanScript;
+}
+
+.boton {
+    cursor: pointer;
+    background: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 0 1rem 0 1rem;
+    border-color: white;
+    width: 10rem;
+    height: 2rem;
+    &:hover {
+        color: #383838;
+        background-color: white;
+    }
+}
